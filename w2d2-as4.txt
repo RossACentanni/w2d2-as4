@@ -1,0 +1,6 @@
+-RxJava is an implementation of a library for designing async/eventbased programs called ReactiveX.
+-Reactive programming is a paradigm all about programming with asynchronous data. Ideally, you can create datastreams from literally anything,
+ listen to them, and react appropriately. In addition, there should be a library of functions for interacting with the streams, such as combining or
+ filtering. 
+-RxJava adds a class called Observable to the Observer pattern. Any object that implements the Observer class is automatically subscribed to an object
+ of the observable class. The subscriber then reacts to anything the Observable object puts out.
